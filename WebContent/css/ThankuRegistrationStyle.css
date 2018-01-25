@@ -1,0 +1,752 @@
+element {
+}
+
+.bg.auth-team-setup, .bg.user-anon {
+    padding-top: 0;
+}
+.auth-team-setup #container, .user-anon {
+    background-color: #fff;
+    color: #777;
+}
+body {
+    position: relative;
+    min-height: 100%;
+   
+    font-family: "source sans pro",sans-serif;
+    
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+}
+body {
+    line-height: 1;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+   
+    padding: 0;
+        
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    border: 0;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100%;
+        border-image-width: 1;
+        border-image-outset: 0;
+        border-image-repeat: stretch stretch;
+    font: inherit;
+       
+        font-style: inherit;
+        font-weight: inherit;
+        font-size: inherit;
+       
+        font-size-adjust: inherit;
+        font-stretch: inherit;
+        -x-system-font: none;
+        font-feature-settings: inherit;
+        font-language-override: inherit;
+        font-kerning: inherit;
+        font-variant-alternates: inherit;
+        font-variant-caps: inherit;
+        font-variant-east-asian: inherit;
+        font-variant-ligatures: inherit;
+        font-variant-numeric: inherit;
+        font-variant-position: inherit;
+    vertical-align: baseline;
+}
+  #container {
+	    width: 100%;
+	    max-width: 100.0625em;
+	    height: auto;
+	    margin: 0 auto;
+	        margin-top: 0px;
+	        margin-right: auto;
+	        margin-bottom: 0px;
+	        margin-left: auto;
+	    padding: 0 20px;
+	        padding-top: 0px;
+	        padding-right: 20px;
+	        padding-bottom: 0px;
+	        padding-left: 20px;
+	}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+   
+    border: 0;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100%;
+        border-image-width: 1;
+        border-image-outset: 0;
+        border-image-repeat: stretch stretch;
+    font: inherit;
+        font-family: inherit;
+        font-style: inherit;
+        font-weight: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        font-size-adjust: inherit;
+        font-stretch: inherit;
+        -x-system-font: none;
+        font-feature-settings: inherit;
+        font-language-override: inherit;
+        font-kerning: inherit;
+        font-variant-alternates: inherit;
+        font-variant-caps: inherit;
+        font-variant-east-asian: inherit;
+        font-variant-ligatures: inherit;
+        font-variant-numeric: inherit;
+        font-variant-position: inherit;
+    vertical-align: baseline;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.auth-team-setup #container, .user-anon {
+    color: #777;
+}
+
+.user-anon article {
+    display: block;
+}
+.auth-team-setup #container .no-padding, .auth-team-setup #container article, .user-anon .no-padding, .user-anon article {
+    padding: 0;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    border: 0;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100%;
+        border-image-width: 1;
+        border-image-outset: 0;
+        border-image-repeat: stretch stretch;
+    font: inherit;
+        font-family: inherit;
+        font-style: inherit;
+        font-weight: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        font-size-adjust: inherit;
+        font-stretch: inherit;
+        -x-system-font: none;
+        font-feature-settings: inherit;
+        font-language-override: inherit;
+        font-kerning: inherit;
+        font-variant-alternates: inherit;
+        font-variant-caps: inherit;
+        font-variant-east-asian: inherit;
+        font-variant-ligatures: inherit;
+        font-variant-numeric: inherit;
+        font-variant-position: inherit;
+    vertical-align: baseline;
+}
+* {
+    box-sizing: border-box;
+}
+.auth-team-setup #container, .user-anon {
+    color: #777;
+}
+
+.auth-team-setup #container .pod, .user-anon .pod {
+   
+    max-width: 43.75rem;
+    margin: 0 auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+}
+.pod {
+    padding: 1rem;
+        padding-top: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+    background-color: #fff;
+    font-size: .875rem;
+    line-height: 1.1875rem;
+    border-radius: 2px;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+}
+.link-to-markdown, .pod, .sf-cvv .cvv-help {
+    background-clip: padding-box;
+}
+.agreement-inc label, .pod {
+    
+}
+article > section {
+    
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    border: 0;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100%;
+        border-image-width: 1;
+        border-image-outset: 0;
+        border-image-repeat: stretch stretch;
+    font: inherit;
+        font-family: inherit;
+        font-style: inherit;
+        font-weight: inherit;
+        font-size-adjust: inherit;
+        font-stretch: inherit;
+        -x-system-font: none;
+        font-feature-settings: inherit;
+        font-language-override: inherit;
+        font-kerning: inherit;
+        font-variant-alternates: inherit;
+        font-variant-caps: inherit;
+        font-variant-east-asian: inherit;
+        font-variant-ligatures: inherit;
+        font-variant-numeric: inherit;
+        font-variant-position: inherit;
+    vertical-align: baseline;
+}
+* {
+    box-sizing: border-box;
+}
+.auth-team-setup #container, .user-anon {
+    color: #777;
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    padding: 0;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    border: 0;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100%;
+        border-image-width: 1;
+        border-image-outset: 0;
+        border-image-repeat: stretch stretch;
+    font: inherit;
+        font-family: inherit;
+        font-style: inherit;
+        font-weight: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        font-size-adjust: inherit;
+        font-stretch: inherit;
+        -x-system-font: none;
+        font-feature-settings: inherit;
+        font-language-override: inherit;
+        font-kerning: inherit;
+        font-variant-alternates: inherit;
+        font-variant-caps: inherit;
+        font-variant-east-asian: inherit;
+        font-variant-ligatures: inherit;
+        font-variant-numeric: inherit;
+        font-variant-position: inherit;
+    vertical-align: baseline;
+}
+
+.auth-team-setup #container .pod h1, .user-anon .pod h1 {
+    margin: 1rem 0;
+        margin-top: 1rem;
+        margin-right: 0px;
+        margin-bottom: 1rem;
+        margin-left: 0px;
+}
+.auth-team-setup #container h1, .user-anon h1 {
+    font-family: 'Stag Web',georgia,serif;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 500;
+    line-height: 1.1em;
+    font-size: 2.9375rem;
+    color: #4A3C31;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    padding: 0;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    border: 0;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100%;
+        border-image-width: 1;
+        border-image-outset: 0;
+        border-image-repeat: stretch stretch;
+    font: inherit;
+        font-size-adjust: inherit;
+        -x-system-font: none;
+        font-feature-settings: inherit;
+        font-language-override: inherit;
+        font-kerning: inherit;
+        font-variant-alternates: inherit;
+        font-variant-caps: inherit;
+        font-variant-east-asian: inherit;
+        font-variant-ligatures: inherit;
+        font-variant-numeric: inherit;
+        font-variant-position: inherit;
+    vertical-align: baseline;
+}
+
+.auth-team-setup #container .pod .testimonials, .user-anon .pod .testimonials {
+    padding: 1.25rem 0;
+        padding-top: 1.25rem;
+        padding-right: 0px;
+        padding-bottom: 1.25rem;
+        padding-left: 0px;
+    border-top: 1px solid #DDD;
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: rgb(221, 221, 221);
+    border-bottom: 1px solid #DDD;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(221, 221, 221);
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    
+    border: 0;
+       
+    font: inherit;
+        font-family: inherit;
+        font-style: inherit;
+        font-weight: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        font-size-adjust: inherit;
+        font-stretch: inherit;
+        -x-system-font: none;
+        font-feature-settings: inherit;
+        font-language-override: inherit;
+        font-kerning: inherit;
+        font-variant-alternates: inherit;
+        font-variant-caps: inherit;
+        font-variant-east-asian: inherit;
+        font-variant-ligatures: inherit;
+        font-variant-numeric: inherit;
+        font-variant-position: inherit;
+    vertical-align: baseline;
+}
+* {
+   
+    box-sizing: border-box;
+}
+.auth-team-setup #container, .user-anon {
+    color: #777;
+}
+
+.auth-team-setup #container .pod .testimonials h2, .user-anon .pod .testimonials h2 {
+   
+    font-size: 1.125rem;
+    color: #777;
+    text-align: center;
+}
+.auth-team-setup #container h2, .user-anon h2 {
+    line-height: 1.15em;
+    margin: 1rem 0;
+    margin-top: 1rem;
+margin-right: 0px;
+margin-bottom: 1rem;
+margin-left: 0px;
+}
+.auth-team-setup #container h2, .auth-team-setup #container h4, .user-anon h2, .user-anon h4 {
+    font-family: 'Stag Web',georgia,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    padding: 0;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    border: 0;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100%;
+        border-image-width: 1;
+        border-image-outset: 0;
+        border-image-repeat: stretch stretch;
+    font: inherit;
+        -x-system-font: none;
+        font-feature-settings: inherit;
+        font-language-override: inherit;
+        font-kerning: inherit;
+        font-variant-alternates: inherit;
+        font-variant-caps: inherit;
+        font-variant-east-asian: inherit;
+        font-variant-ligatures: inherit;
+        font-variant-numeric: inherit;
+        font-variant-position: inherit;
+    vertical-align: baseline;
+}
+
+.auth-team-setup #container .pod .testimonials p, .user-anon .pod .testimonials p {
+    font-style: italic;
+}
+.auth-team-setup #container p, .user-anon p {
+    line-height: 1.4em;
+    
+    font-size: 1rem;
+    margin: 1.125rem 0;
+    margin-top: 1.125rem;
+margin-right: 0px;
+margin-bottom: 1.125rem;
+margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+padding-right: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    border: 0;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100%;
+        border-image-width: 1;
+        border-image-outset: 0;
+        border-image-repeat: stretch stretch;
+    font: inherit;
+        font-family: inherit;
+        font-style: inherit;
+        font-weight: inherit;
+        font-size-adjust: inherit;
+        font-stretch: inherit;
+        -x-system-font: none;
+        font-feature-settings: inherit;
+        font-language-override: inherit;
+        font-kerning: inherit;
+        font-variant-alternates: inherit;
+        font-variant-caps: inherit;
+        font-variant-east-asian: inherit;
+        font-variant-ligatures: inherit;
+        font-variant-numeric: inherit;
+        font-variant-position: inherit;
+    vertical-align: baseline;
+}
+
+
+.auth-team-setup #container .pod .testimonials p, .user-anon .pod .testimonials p {
+    font-style: italic;
+}
+.auth-team-setup #container p, .user-anon p {
+    line-height: 1.4em;
+    
+    font-size: 1rem;
+    margin: 1.125rem 0;
+        margin-top: 1.125rem;
+        margin-right: 0px;
+        margin-bottom: 1.125rem;
+        margin-left: 0px;
+    padding: 0;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+}
+
+.auth-team-setup #container .pod .subscribe-now, .user-anon .pod .subscribe-now {
+    margin-bottom: 1.25rem;
+    padding: 1.25rem 0;
+        padding-top: 1.25rem;
+        padding-right: 0px;
+        padding-bottom: 1.25rem;
+        padding-left: 0px;
+    border-bottom: 1px solid #DDD;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(221, 221, 221);
+    text-align: center;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+       
+        margin-left: 0px;
+    padding: 0;
+    border: 0;
+        border-top-width: 0px;
+        border-right-width: 0px;
+       
+        border-left-width: 0px;
+        border-top-style: none;
+        border-right-style: none;
+       
+        border-left-style: none;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        
+        border-left-color: currentcolor;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100%;
+        border-image-width: 1;
+        border-image-outset: 0;
+        border-image-repeat: stretch stretch;
+    font: inherit;
+        font-family: inherit;
+        font-style: inherit;
+        font-weight: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        font-size-adjust: inherit;
+        font-stretch: inherit;
+        -x-system-font: none;
+        font-feature-settings: inherit;
+        font-language-override: inherit;
+        font-kerning: inherit;
+        font-variant-alternates: inherit;
+        font-variant-caps: inherit;
+        font-variant-east-asian: inherit;
+        font-variant-ligatures: inherit;
+        font-variant-numeric: inherit;
+        font-variant-position: inherit;
+    vertical-align: baseline;
+}
+
+.button, a.button, button {
+    color: #404040;
+    background: #fff;
+        background-color: rgb(255, 255, 255);
+        background-image: none;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto auto;
+    border: 1px solid #777;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        border-top-color: rgb(119, 119, 119);
+        border-right-color: rgb(119, 119, 119);
+        border-bottom-color: rgb(119, 119, 119);
+        border-left-color: rgb(119, 119, 119);
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100%;
+        border-image-width: 1;
+        border-image-outset: 0;
+        border-image-repeat: stretch stretch;
+}
+.bigbutton, .button, .button-primary, a.bigbutton, a.button, a.button-primary, button, button.button-primary, input[type="reset"], input[type="submit"] {
+    display: inline-block;
+    padding: 10px 15px;
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: none;
+        text-decoration-color: currentcolor;
+        text-decoration-line: none;
+        text-decoration-style: solid;
+   
+    transition: all .15s cubic-bezier(.86,0,.07,1);
+        transition-property: all;
+        transition-duration: 0.15s;
+        transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+        transition-delay: 0s;
+}
+.auth-team-setup #container a, .auth-team-setup #container a.orange-color, .auth-team-setup #container a:hover, .auth-team-setup #container a.orange-color:hover, .user-anon a, .user-anon a.orange-color, .user-anon a:hover, .user-anon a.orange-color:hover {
+    
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    
+    font: inherit;
+        font-family: inherit;
+        font-style: inherit;
+        font-size-adjust: inherit;
+        font-stretch: inherit;
+        -x-system-font: none;
+        font-feature-settings: inherit;
+        font-language-override: inherit;
+        font-kerning: inherit;
+        font-variant-alternates: inherit;
+        font-variant-caps: inherit;
+        font-variant-east-asian: inherit;
+        font-variant-ligatures: inherit;
+        font-variant-numeric: inherit;
+        font-variant-position: inherit;
+    vertical-align: baseline;
+}
+  
